@@ -1,0 +1,12 @@
+venv/
+tmp/
+pycache/
+__pycache__/
+*.pyc
+last_error.log
+_BG_entfernt/
+*.mov
+*.mp4
+*.part.mov
+.DS_Store
+Thumbs.db

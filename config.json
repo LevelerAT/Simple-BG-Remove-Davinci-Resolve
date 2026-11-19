@@ -1,0 +1,22 @@
+{
+  "mark_color": "Orange",
+  "done_color": "Teal",
+  "handles_frames": 0,
+  "disable_original": true,
+  "reuse_existing": true,
+  "output_subfolder": "_BG_entfernt",
+  "media_pool_bin": "BG entfernt",
+  "ffmpeg_dir": "",
+  "local": {
+    "model": "resnet50",
+    "fp16": true,
+    "downsample_ratio": null
+  },
+  "fal": {
+    "api_key": "",
+    "model": "veed/video-background-removal/fast",
+    "refine_edges": true,
+    "confirm_cost": true,
+    "max_chunk_seconds": 55
+  }
+}
